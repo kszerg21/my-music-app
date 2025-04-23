@@ -1,0 +1,14 @@
+# Ignore mp3 files
+*.mp3
+
+
+# OS/IDE-specific ignores
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.tmp
+
+# Ignore PHP storm or VS Code config files
+.idea/
+.vscode/

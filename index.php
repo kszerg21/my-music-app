@@ -6,13 +6,13 @@
     <meta charset="utf-8" />
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="assets/css/style_mp.css">
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./css/style_mp.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <?php
   $year = date("Y");
-  $copyright = '© KSV '. $year;
+  $copyright = '© KSV '. $year .'<br>All rights reserved</br>';
  
   function getUserIP()
   {
@@ -49,7 +49,7 @@ echo '<div class="footer"><br><br>Hello, stranger '.$user_ip.'!<br> Let\'s liste
 
 
 // Вказуємо шлях до папки
-$directory = './mus';
+$directory = './mp3';
 
 
 // Перевіряємо, чи дійсно це папка

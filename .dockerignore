@@ -1,0 +1,6 @@
+# Ignore Git and editor settings
+.git
+.gitignore
+.vscode/
+.idea/
+Dockerfile
